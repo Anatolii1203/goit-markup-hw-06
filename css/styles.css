@@ -65,9 +65,8 @@ img {
 
 .top-page {
   display: flex;
-  padding-top: 16px;
-  padding-bottom: 16px;
   align-items: center;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
@@ -107,9 +106,9 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin-right: 76px;
   display: block;
   position: relative;
+  padding: 17px 0;
 }
 
 .logo-studio {
@@ -156,6 +155,7 @@ img {
 
 .address-link {
   font-style: normal;
+  margin-left: auto;
   display: none;
 }
 
@@ -195,8 +195,10 @@ img {
 }
 
 .open-menu-button {
+  padding: 0;
+  line-height: 0;
   background-color: transparent;
-  border-style: none;
+  border: none;
   cursor: pointer;
   width: 24px;
   height: 24px;
