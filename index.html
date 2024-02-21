@@ -735,7 +735,7 @@
         </div>
         <div class="form-footer">
           <p class="form-footer-p">Subscribe</p>
-          <form class="form-footer-f">
+          <form class="form-footer-f" autocomplete="off">
             <label class="form-footer-l">
               <input
                 class="form-footer-i"
@@ -767,10 +767,10 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form>
           <div class="div-label">
-            <label class="label" for="user-name">Name</label>
+            <label class="md-label" for="user-name">Name</label>
             <div class="div-input">
               <input
-                class="input"
+                class="md-input"
                 type="text"
                 name="user-name"
                 id="user-name"
@@ -781,19 +781,24 @@
             </div>
           </div>
           <div class="div-label">
-            <label class="label" for="user-tel">Phone</label>
+            <label class="md-label" for="user-tel">Phone</label>
             <div class="div-input">
-              <input class="input" type="tel" name="user-tel" id="user-tel" />
+              <input
+                class="md-input"
+                type="tel"
+                name="user-tel"
+                id="user-tel"
+              />
               <svg class="icon-label" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
           <div class="div-label">
-            <label class="label" for="user-email">Email</label>
+            <label class="md-label" for="user-email">Email</label>
             <div class="div-input">
               <input
-                class="input"
+                class="md-input"
                 type="email"
                 name="user-email"
                 id="user-email"
@@ -804,10 +809,10 @@
             </div>
           </div>
           <div class="div-textarea">
-            <label class="label" for="user-comment">Comment </label>
+            <label class="md-label" for="user-comment">Comment </label>
             <textarea
               name="user-comment"
-              class="textarea"
+              class="md-textarea"
               rows="6"
               placeholder="Text input"
               id="user-comment"
