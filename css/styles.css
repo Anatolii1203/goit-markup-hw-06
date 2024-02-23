@@ -915,6 +915,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  fill: #f4f4fd;
 }
 
 .exercise-text-p {
