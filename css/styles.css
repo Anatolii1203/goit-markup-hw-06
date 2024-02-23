@@ -327,6 +327,10 @@ img {
   padding: 8px;
 }
 
+.mobile-svg {
+  fill: #f4f4fd;
+}
+
 /* <!-- SECTION HERO --> */
 
 .hero {
